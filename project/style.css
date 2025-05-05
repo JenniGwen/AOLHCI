@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+}
+
+/* Footer ===============================================================*/
+.footer{
+    background-color: #0c2d36;
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column{
+    flex: 1 1 200px;
+    padding: 0 35px 0 35px;
+}
+
+.footer-column img{
+    width: 125px;
+    height: auto;
+}
+
+.footer-column h3, .footer-column h4{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li{
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.footer-column ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover{
+    color: #01A9F2;
+}
+
+.social-icons{
+    margin-right: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons img{
+    width: 24px; 
+    height: 24px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover{
+    transform: scale(1.2);
+}
+
+.footer hr{
+    border: none;
+    border-top: 1px solid #ffffff;
+    margin: 30px 20px 10px 20px;
+}
+
+.footer-bottom{
+    margin-right: 20px;
+    text-align: right;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+/* Home ===============================================================*/
+.home-body{
+    position: relative;
+    min-height: 1600px;  /* utk scrolling */
+    padding-top: 800px; /*supaya bg1 g ketimpa*/
+}
+
+.bg1{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 800px;
+    background-image: url('assets/desktop/home/fullbg1.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; /* - < z < + (semakin negatif = layer blkg)*/
+}
+
+nav{
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0; /*tambahin 0 supaya bisa auto, krn klo fixed gbs auto*/
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 90%;
+    padding: 10px 40px; /* top-bottom, left-right */
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+    flex-wrap: wrap; /*supaya pas stengah halaman bs di wrap*/
+    gap: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+  
+.logo img{
+    height: 24px;
+    width: auto; 
+}
+
+.navs{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-width: 0;
+    justify-content: center;
+}
+
+.navs li a{
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navs li a.active{
+    background: white;
+    color: #213A58;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 90px;
+}
+
+.login-btn{
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 16px;
+    width: 90px;
+    font-size: 12px;
+}
+
+.home-content{
+    padding: 150px 8% 0 10%; /*top, right, bottom, left*/
+    max-width: 600px;
+}
+  
+.home-text h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+  
+.home-text p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+  
+.grad1-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+  
+.grad1-btn img{
+    width: 16px;
+    height: auto;
+}
+
+.grad{
+    background: linear-gradient(180deg, #0C2D34, #01A9F2);
+    padding: 60px 20px;
+    min-height: 800px;
+    color: white;
+    position: relative;
+    z-index: 5;
+}
+
+.grad-content h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+  
+.search-input{
+    margin-top: 10px;
+    padding: 5px 5px 5px 40px; /*40px utk more icon padding kiri*/
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    width: 350px;
+    max-width: 90%;
+
+    background-image: url('assets/desktop/home/search_icon.png'); /* adjust path */
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+}
+  
+.search-button{
+    margin-top: 10px;
+    padding: 5px 20px;
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 10px;
+}
+  
+.card-1{
+    margin-top: 25px;
+    background-image: url(assets/desktop/home/card1bg.png);
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 280px;
+    height: 400px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card-2{
+    margin-top: 25px;
+    background-image: url(assets/desktop/home/card2bg.png);
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 280px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card-3{
+    margin-top: 25px;
+    background-image: url(assets/desktop/home/card3bg.png);
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 280px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+  
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+  
+.card-content{
+    padding: 20px;
+    position: relative;
+}
+  
+.card-content h4{
+    margin-top: 250px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+  
+.card-content p{
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 0 5px 0 0;
+    color: #e0e0e0;
+}
+  
+.see-more{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-size: 12px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
