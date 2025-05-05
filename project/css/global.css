@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+}
+
+nav{
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0; /*tambahin 0 supaya bisa auto, krn klo fixed gbs auto*/
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 90%;
+    padding: 10px 40px; /* top-bottom, left-right */
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+    flex-wrap: wrap; /*supaya pas stengah halaman bs di wrap*/
+    gap: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+  
+.logo img{
+    height: 24px;
+    width: auto; 
+}
+
+.navs{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-width: 0;
+    justify-content: center;
+}
+
+.navs li a{
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navs li a.active{
+    background: white;
+    color: #213A58;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 90px;
+}
+/* .navs li a:hover{
+    background: white;
+    color: #213A58;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 90px;
+} */
+
+.login-btn{
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 16px;
+    width: 90px;
+    font-size: 12px;
+}
