@@ -36,6 +36,27 @@
     max-width: 1440px; /*apply max-width supaya content di tengah*/
 }
 
+.bg-home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.homecard{
+    position: absolute;
+    /* supaya di tengah all taruh 0 */
+    top: 0;
+    bottom: 0;
+    right: 10; 
+    left: 50;
+    margin: 0 auto; 
+    width: 80%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 1); /*white with opacity*/
+    border-radius: 30px;
+    padding: 20px; /*top, right, bottom, left*/
+}
+
 .homeup-text{
     color: white;
 }
