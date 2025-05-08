@@ -1,0 +1,205 @@
+*{
+    font-family: poppins, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+.fixed{
+    position: fixed;
+}
+
+.pt-5{
+    padding-top: 5px;
+}
+
+.py-10{
+    padding: 10px 0px;/* top-bottom, left-right */
+}
+
+.px-40{
+    padding: 0px 40px;
+}
+
+.w-9-10{
+    width: 90%; /*9/10 = 90% */
+}
+
+.h-50{
+    height: 50px;
+}
+
+/*tambahin left & right 0 supaya bisa auto, krn klo fixed gbs auto*/
+.left-0{
+    left: 0;
+}
+
+.right-0{
+    right: 0;
+}
+
+.w-full{
+    width: 100%;
+}
+
+/* - < z < + (semakin negatif = layer blkg)*/
+.z-50{
+    z-index: 50;
+}
+
+.mx-auto{
+    margin: 0 auto; /*top&bottom, left&right*/
+}
+
+.my-auto{
+    margin: auto 0;
+}
+
+nav{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+.h-26{
+    height: 26px;
+}
+
+.w-auto{
+    width: auto;
+}
+
+.no-list{
+    list-style: none;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/* misal ada 3 objek, satu objek ambil 33,3% width */
+.flex-sm-w{
+    flex: 1;
+}
+
+.w-1-10{
+    width: 10%;
+}
+
+.w-8-10{
+    width: 80%;
+}
+
+.h-60{
+    height: 60px;
+}
+
+.px-30{
+    padding: 0px 30px;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.py-4{
+    padding: 4px 0px;
+}
+
+.px-8{
+    padding: 0px 8px;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.text-nav-color{
+    color: #213A58;
+}
+
+.h-25{
+    height: 25px;
+}
+
+.w-120{
+    width: 120px;
+}
+
+.active{
+    color: #FFFFFF;
+    background: #213A58;
+    border: none;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+}
+
+.text-nav-color:hover{
+    color: #01A9F2;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.navs li a{
+    font-size: 14px;
+    align-items: center;
+    padding: 4px 8px;
+    justify-content: center;
+}
+
+.navs li a:hover{
+    color: #01A9F2;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.login-btn{
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    color: white;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 16px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}

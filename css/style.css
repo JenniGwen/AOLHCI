@@ -1,0 +1,122 @@
+/* Home page */
+.home-content{
+    position: relative;
+    min-height: 1600px;  /* utk scrolling */
+}
+
+.homedown{
+    background-image: url(../assets/desktop/bgweb.png);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+}
+
+.homeup{
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.044), rgba(0, 0, 0, 0.565)), /*top, bottom (gradient overlay)*/
+        url(../assets/desktop/home/homebg.png);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2 /* - < z < + (semakin negatif = layer blkg)*/
+         
+}
+
+.homeup-content{
+    padding: 100px 0px 100px 0px; /*top, right, bottom, left*/
+    text-align: center;
+    margin: 0 auto; /*top&bottom, left&right*/
+    max-width: 1440px; /*apply max-width supaya content di tengah*/
+}
+
+.homeup-text{
+    color: white;
+}
+
+.h-40{
+    height: 40px;
+}
+
+.homeup-text h2{
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.home-p{
+    margin-top: 350px;
+}
+
+.home-text p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.center-button{
+    display: flex;
+    justify-content: center;
+}
+
+.grad1-btn{
+    gap: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.grad1-btn img{
+    width: 16px;
+    height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .homeup-text h2 {
+      font-size: 7.9vh;
+    }
+  
+    .home-p p {
+      font-size: 2vh;
+    }
+  
+    .grad1-btn {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.5rem;
+    }
+}
+  
+@media (max-width: 480px) {
+    .homeup {
+      text-align: left;
+      align-items: flex-start;
+      padding: 4rem 1rem;
+    }
+  
+    .homeup-text h2 {
+      font-size: 4vh;
+    }
+  
+    .home-p p {
+      font-size: 2vh;
+    }
+  
+    .center-button {
+      justify-content: flex-start;
+    }
+}
