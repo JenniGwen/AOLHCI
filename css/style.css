@@ -281,6 +281,16 @@ object-fit{
     width: 100%;
 }
 
+/* Gallery */
+.gallery{
+    background-image: url(../assets/desktop/bgweb.png);
+    position: relative;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .homeup-text h2 {
