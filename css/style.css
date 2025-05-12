@@ -185,6 +185,10 @@ object-fit{
     height: 70%;
 }
 
+.h-5-10-card{
+    height: 50%;
+}
+
 .card-bg{
      background-color: white;
      padding: 10px;
@@ -199,13 +203,30 @@ object-fit{
     display: flex;
 }
 
-
 .object-contains{
     object-fit: contain;
 }
 
-.card1{
-   
+.h-70{
+    height: 70%;
+}
+
+.h-50-card{
+    height: 50%;
+}
+
+.card-content h3{
+    color:#213b6A;
+    font-size: 16px;
+}
+
+.card-content p{
+    color:#213b6A;
+    font-size: 12px;
+}
+
+.mt-4{
+    margin: 4vh 0 0 0;
 }
 
 /* Responsive styles */
