@@ -175,8 +175,8 @@ object-fit{
     width: 33.3%;
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* default no shadow */
-     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-     box-shadow: #91f9ff 0px 0px 10px 0px;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: #91f9ff 0px 0px 10px 0px;
 }
 
 
@@ -301,7 +301,7 @@ object-fit{
 }
 
 .gallery-wrapping{
-    
+    margin: 20vh auto;
 
 }
 
@@ -313,26 +313,198 @@ object-fit{
 
 .c1-gallery{
     font-color: #213b6A;
-    font-size: 36px;
+    font-size: 28px;
+    width: 35%;
 }
 
 .c2-gallery{
-
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto 0;
 }
 
 .c2-gallery-opt{
-
+    margin: auto 0;
 }
 
 .c2-gallery-opt-ul{
-
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: auto 0;
 }
 
 .c2-gallery-opt-ul-btn{
-
+    margin: auto 0;
+    background-color: #213b6A;
+    color: white;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.c2-gallery-search{
-
+.c2-gallery-opt-ul-btn-active{
+    margin: auto 0;
+    background-color: #FFFFFF;
+    color: #213b6A;
+    padding: 6px 14px;
+    font-weight: 600;
+    border: 1px solid #6ac0c4;
+    transition: 0.3s;
+    border-radius: 20px;
 }
 
+.yacht-ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.card-yacht{
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 100%;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: #91f9ff 0px 0px 10px 0px;
+}
+
+.yacht-container{
+    width: 100%;
+    display: block;
+}
+
+.yacht-img-container{
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.yacht-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.yacht-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+
+.yacht-shadow-container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 1px solid #f2f2f2;
+    height: 40px;
+}
+
+.yacht-shadow-container-ul{
+    list-style-type: none;
+    display: flex;
+    margin: 5px 0;
+    gap: 3px;
+}
+
+.yacht-shadow-container-li{
+    display: flex;
+    gap: 5px;
+    margin: auto 0;
+}
+
+.yacht-icon{
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+}
+
+.p-card{
+    color: #9da2ac;
+    font-size: 12px;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute-yacht{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.h3-card{
+    font-size: 20px;
+    color: #213b6A;
+    font-weight: 600;
+}
+
+.star{
+    height: 18px;
+    width: 18px;
+    object-fit: cover;
+    margin: 4px 0 0 0;
+}
+
+.gap-5{
+    gap: 5px;
+}
+
+.about-ship{
+    color: #213b6A;
+    font-size: 16px;
+}
+
+.p-ship{
+    color: #213b6A;
+    font-size: 12px;
+}
+
+.hr-card{
+    color: rgb(160, 160, 160);
+    margin: 20px 0;
+    height: 1px;
+    width: 100%;
+}
+
+.price-ship{
+    color: #213b6A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.seemore-btn{
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mx-6{
+    margin: 0 6px;
+}
+
+.py-2{
+    padding: 2vh 0;
+}
