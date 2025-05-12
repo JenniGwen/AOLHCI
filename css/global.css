@@ -207,3 +207,50 @@ nav{
     align-items: center;
     justify-content: center;
 }
+
+.footer{
+    background: #213A58;
+    color: white;
+}
+
+.footer-content{
+    padding: 40px 0px;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-section{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.my-2{
+    margin: 2vh 0;
+}
+
+.list-none{
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+hr{
+    color: white;
+    height: 1px;
+}
+
+.footer-bottom{
+    margin-top: 10px;
+    font-size: 12px;
+}
