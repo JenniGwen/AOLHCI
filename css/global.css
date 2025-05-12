@@ -129,6 +129,10 @@ nav{
     justify-content: space-between;
 }
 
+.home-search-btn:hover{
+    background: #213A58;
+}
+
 .py-4{
     padding: 4px 0px;
 }
