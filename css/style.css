@@ -192,6 +192,14 @@ object-fit{
      width: 33.3%;
 }
 
+.home-cards{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+
 .object-contains{
     object-fit: contain;
 }
