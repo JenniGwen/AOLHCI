@@ -290,6 +290,7 @@ object-fit{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 20vh 0;
 }
 
 /* container = wrapping */
@@ -298,10 +299,11 @@ object-fit{
     width: 80%;
     margin: 0 auto;
     border-radius: 12px;
+    background: white;
 }
 
 .gallery-wrapping{
-    margin: 20vh auto;
+    margin: 0 auto;
 
 }
 
@@ -312,7 +314,7 @@ object-fit{
 }
 
 .c1-gallery{
-    font-color: #213b6A;
+    color: #213b6A;
     font-size: 28px;
     width: 35%;
 }
@@ -376,7 +378,7 @@ object-fit{
     border-radius: 16px;
     width: 100%;
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: #91f9ff 0px 0px 10px 0px;
+    box-shadow: #e1e1e1 0px 0px 10px 0px;
 }
 
 .yacht-container{
