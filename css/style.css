@@ -283,47 +283,56 @@ object-fit{
 
 /* Gallery */
 .gallery{
-    background-image: url(../assets/desktop/bgweb.png);
+    background-image: url(../assets/desktop/gallery/gallerybg.png);
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    .homeup-text h2 {
-      font-size: 7.9vh;
-    }
-  
-    .home-p p {
-      font-size: 2vh;
-    }
-  
-    .grad1-btn {
-      font-size: 0.9rem;
-      padding: 0.6rem 1.5rem;
-    }
+/* container = wrapping */
+.gallery-section{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 12px;
 }
-  
-@media (max-width: 480px) {
-    .homeup {
-      text-align: left;
-      align-items: flex-start;
-      padding: 4rem 1rem;
-    }
-  
-    .homeup-text h2 {
-      font-size: 4vh;
-    }
-  
-    .home-p p {
-      font-size: 2vh;
-    }
-  
-    .center-button {
-      justify-content: flex-start;
-    }
+
+.gallery-wrapping{
+    
+
 }
+
+.gallery-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1-gallery{
+    font-color: #213b6A;
+    font-size: 36px;
+}
+
+.c2-gallery{
+
+}
+
+.c2-gallery-opt{
+
+}
+
+.c2-gallery-opt-ul{
+
+}
+
+.c2-gallery-opt-ul-btn{
+
+}
+
+.c2-gallery-search{
+
+}
+
