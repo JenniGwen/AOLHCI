@@ -1044,11 +1044,90 @@ object-fit{
 
 .join-ul li{
     font-size: 14px;
-<<<<<<< HEAD
     color: #FFFFFF;
 }
-=======
-    color: #213b6A;
+
+
+/* HP */
+@media screen and (max-width: 756px){
+
+    /* subscription */
+    .subs-bg{
+        background-image: url(../assets/desktop/subscription/subsbg.webp);
+        position: relative;
+        width: 100vw;
+        /*height: 100vh;*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 15vh 0;
+    }
+
+    .subs-header{
+        text-align: center;
+        margin: 1vh 0;
+        justify-content: space-around;
+    }
+
+
+    .subs-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .subs-header h1{
+        text-align: center;
+    }
+
+
+    .h1-subs{
+        display: none;
+    }
+
+
+    .h1-subs{
+        color: #213b6A;
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .subs-content{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
->>>>>>> 392b0528dacb4886f006034ed7264937f54b6693
+
+
+    .subs-form-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .join-shipdeck-container{
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin: 0 0 0 auto;
+        background-color:#213b6A;
+        border-radius: 8px;
+    }
+
+    .subs-section{
+        padding: 20px;
+        width: 96%;
+        margin: 0 auto;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        padding-bottom: 50px;
+    }
+
+}
+
+/* Tablest */
+@media screen and (max-width: 1128px){
+
+}
