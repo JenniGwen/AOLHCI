@@ -848,7 +848,7 @@ object-fit{
 
 /* subscription */
 .subs-bg{
-    background-image: url(../assets/desktop/bgweb.png);
+    background-image: url(../assets/desktop/subscription/subsbg.webp);
     position: relative;
     width: 100vw;
     /*height: 100vh;*/
@@ -863,7 +863,9 @@ object-fit{
     width: 80%;
     margin: 0 auto;
     border-radius: 12px;
-    background: white;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding-bottom: 50px;
 }
 
 .subs-wrapping{
@@ -883,7 +885,7 @@ object-fit{
     width: 100%;
     text-align: center;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .subs-content{
@@ -963,7 +965,7 @@ object-fit{
 
 
 .error-validation{
-    font-size:14px;
+    font-size:10px;
     margin: 1vh 0;
     color: red;
     font-weight: 500;
@@ -979,7 +981,7 @@ object-fit{
 
 .input-radio label{
     color: rgb(104, 103, 103);
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -990,7 +992,7 @@ object-fit{
     padding: 10px 16px;
     width: 100%;
     border: none;
-    margin: 6vh 0 3vh;
+    margin: 4vh 0 4vh;
     border-radius: 16px;
     font-size: 14px;
     align-items: center;
@@ -999,24 +1001,26 @@ object-fit{
 
 .join-shipdeck-container{
     width: 45%;
+    height: 50%;
     display: block;
     margin: 0 0 0 auto;
-
+    background-color:#213b6A;
+    border-radius: 8px;
 }
 
 .join-contain{
     width: 90%;
-    margin: 0 0 0 auto;
+    margin: 30px 0 0 30px;
 }
 
 .join-header h1{
-    color: #213b6A;
+    color: #FFFFFF;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .join-header p{
-    color: #213b6A;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
 }
@@ -1027,7 +1031,7 @@ object-fit{
 }
 
 .join-box-container h2{
-    color: #213b6A;
+    color: #FFFFFF;
     font-size: 30px;
     font-weight: 600;
 }
@@ -1040,5 +1044,5 @@ object-fit{
 
 .join-ul li{
     font-size: 14px;
-    color: #213b6A;
+    color: #FFFFFF;
 }
