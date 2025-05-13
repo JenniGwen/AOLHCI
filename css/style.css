@@ -846,3 +846,171 @@ object-fit{
     width: 100%;
     box-shadow: #91f9ff 0px 0px 10px 0px;
 }
+
+/* subscription */
+.subs-bg{
+    background-image: url(../assets/desktop/bgweb.png);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20vh 0;
+}
+
+.subs-section{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: white;
+}
+
+.subs-wrapping{
+    margin: 0 auto;
+
+}
+
+.subs-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-subs{
+    color: #213b6A;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.subs-content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.subs-form-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.subs-form{
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 100%;
+    box-shadow: #91f9ff 0px 0px 10px 0px;
+}
+
+.subs-header h1{
+    color: #213b6A;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.subs-header{
+    margin: 4vh 4vh;
+    text-align: center;
+}
+
+.subs-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.subs-form-box{
+    gap: 10px;
+    display: block;
+}
+
+.input-box label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.input-box{
+    width: 100%;
+    text-align: left;
+}
+
+.input-container input{
+    background-color: white;
+    color: rgb(179, 179, 179);
+    padding: 8px;
+    border-radius: 4px;    
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.error-vaidation{
+    font-size:16px;
+    margin: 2vh 0;
+    font-weight: 500;
+    text-align: left;
+}
+
+.input-radio{
+    display: flex;
+    gap: 10px;
+}
+
+.subs-btn{
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    color: white;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 16px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-shipdeck-container{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.join-contain{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.join-header h1{
+    color: #213b6A;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.join-header p{
+    color: #213b6A;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.join-box{
+    margin: 6vh 0;
+
+}
+
+.join-box-container h2{
+    color: #213b6A;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.join-ul{
+    margin: 2vh 4vh;
+    display: block;
+    gap: 10px;
+}
+
+.join-ul li{
+    font-size: 14px;
+    color: #213b6A;
+}
