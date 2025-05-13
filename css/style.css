@@ -286,7 +286,7 @@ object-fit{
     background-image: url(../assets/desktop/gallery/gallerybg.png);
     position: relative;
     width: 100vw;
-    height: 200vh;
+    height: 315vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -509,4 +509,8 @@ object-fit{
 
 .py-2{
     padding: 2vh 0;
+}
+
+.yacht-title h2{
+    color: #213b6A;
 }
