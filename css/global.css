@@ -30,13 +30,13 @@
 
 .nav-col-1-con{
     align-items: center;
-    width: 18%;
+    width: 20px;
     padding: 1vh 0 0 0 ;
 }
 
 .nav-col-1-img{
+    position: fixed;
     height: 26px;
-    width: 100%;
     padding: 0 30px;
 }
 
@@ -45,6 +45,7 @@
     width: 80%;
     padding: 0 30px;
     gap: 10px;
+    margin: 0 auto;
 }
 
 .nav-col-2-con{
@@ -52,16 +53,19 @@
     width: auto;
     list-style: none;
     gap: 40px;
-    margin: auto 0;
+    margin: auto;
     justify-content: center;
 
 }
 
 .list-li-a{
-    text-underline: none;
     text-decoration: none;
     font-size: 14px;
     margin: auto 0;
+}
+
+.display-flex-sm{
+    display: none;
 }
 
 .fixed{
@@ -409,7 +413,60 @@ hr{
     }
 
     /* navbar */
+    .navbar{
+        justify-content: space-between;
+        position: fixed;
+        width: 90%;
+        top: 10px;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        margin: 0 auto;
+        display: flex;
+        height: 55px;
+        max-width: 1000px;
+    }
 
+    .nav-col-2{
+        display: none;
+        width: 80%;
+        padding: 0 30px;
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+    .nav-col-1-con{
+        align-items: center;
+        width: 50%;
+        padding: 1vh 0 0 0 ;
+    }
+
+    .nav-col-1-img{
+        height: 26px;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .nav-col-3{
+        margin: 5px 15px 0 0;
+        align-items: right;
+        display: flex;
+    }
+
+    .nav-col-3-btn{
+        display: none;
+        padding: 0;
+    }
+
+    .display-flex-sm{
+        display: flex;
+        margin: auto 5px;
+    }
+
+    .menu-btn{
+        border: none;
+        background-color: white;
+    }
 }
 
 /* Tablet */
