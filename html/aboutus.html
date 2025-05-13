@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Abotu us</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel = "stylesheet" href = "../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="../script/home.js" defer></script>
+
 </head>
-<body>
+<body class="aboutus-body">
     <!-- navbar -->
     <nav class="fixed w-9-10 top-0 left-0 right-0 z-50 mx-auto flex h-55 mx-width-1000">
       <div class="w-full mx-auto flex aligncenter justify-between py-4 px-8">
@@ -14,10 +20,10 @@
       </div>
       <div class="flex w-8-10 px-30 gap-10 flex-sm-w">
         <ul class="flex w-auto no-list gap-40 justify-center flex-sm-w">
-          <li><a href="home.html" class="active no-underline font-14 text-nav-color cursor-pointer my-auto">Home</a></li>
+          <li><a href="home.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">Home</a></li>
           <li><a href="../html/gallery.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">Gallery</a></li>
           <li><a href="../html/services.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">Services</a></li>
-          <li><a href="../html/aboutus.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">About Us</a></li>
+          <li><a href="../html/aboutus.html" class=" active no-underline font-14 text-nav-color cursor-pointer my-auto">About Us</a></li>
           <li><a href="../html/subscription.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">Subscription</a></li>
       </ul>
       </div>
@@ -26,5 +32,246 @@
       </div>
       </div>
     </nav>
+
+    <!-- About Us contents -->
+     <main class="aboutus">
+      <!-- who we are -->
+      <section class="aboutus-section">
+        <div class="aboutus-wrapping flex-row justify-center mx-auto my-auto gap-40">
+          <!-- image -->
+           <div class="flex justify-center mx-auto w-50">
+              <img src="../assets/desktop/aboutus/aboutus.jpg" class="aboutus-img">
+           </div>
+
+          <!-- text -->
+          <div class="justify-center text-margin mt-10 ml-10 w-50">
+            <div>
+              <h1 class="h1-aboutus">Who We Are</h1>
+            </div>
+            <div>
+              <p class="p-aboutus">ShipDecKK is a leading ship dealership specializing in high-end yachts, cargo ships, and luxury liners. Founded in 2020, we have quickly gained recognition for delivering exceptional customer service and top-quality vessels. Our mission is to provide customers with reliable, luxurious, and innovative ships that cater to a wide range of needs, from private leisure to commercial shipping.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- misi visi -->
+      <section class="aboutus-section">
+      <div class="aboutus-wrapping flex-row justify-center mx-auto my-auto gap-40">
+          <!-- text -->
+          <div class="justify-center text-margin mt-10 ml-10 w-50">
+            <div>
+              <h1 class="h1-aboutus ">Our Mission and Values</h1>
+            </div>
+            <div class="mt-30">
+              <p class="p-aboutus mt-10">At ShipDecKK, our mission is to set new standards in the maritime industry through excellence, innovation, and customer-centric service. We are committed to:</p>
+            </div>
+          </div>
+
+          <!-- visi misi -->
+           <div class="flex-column justify-center w-50 h-full ">
+            <!-- misi 1 & 2 -->
+              <div class= "h-50 flex gap-15 margin-card">
+                <div class="card-visi w-50 mx-auto my-auto justify-center">
+                  <p class="p-aboutus-visi">Using only the finest materials and the best craftsmanship</p>
+                </div>
+                <div class="card-visi w-50 mx-auto my-auto justify-center">
+                  <p class="p-aboutus-visi">Providing an engaging customer experience</p>
+                </div>
+              </div>
+
+              <!-- misi 3 & 4 -->
+              <div class= "h-50 flex gap-15 margin-card">
+                <div class="card-visi w-50 mx-auto my-auto justify-center">
+                  <p class="p-aboutus-visi">Building strong, lasting relationships with our clients</p>
+                </div>
+                <div class="card-visi w-50 mx-auto my-auto justify-center">
+                  <p class="p-aboutus-visi">Promoting sustainability in every vessel offered</p>
+                </div>
+              </div>
+           </div>
+
+        </div>
+      </section>
+
+      <!-- achievements -->
+      <section class="aboutus-section">
+        <div class="aboutus-wrapping flex-column justify-center mx-auto my-auto gap-40">
+          <!-- text -->
+          <div class="justify-center mb-50">
+            <div>
+              <h1 class="h1-aboutus-a">Our Achievements</h1>
+            </div>
+          </div>
+
+          <div>
+            <!-- cards -->
+           <ul class="yacht-ul">
+              <!-- card 1 -->
+              <li class="w-33">
+                  <div class="card-a">
+                      <div class="card1 yacht-container">
+                          <div class="yacht-img-container">
+                              <img src="../assets/desktop/aboutus/yacht.jpg" class="yacht-img">
+                          </div>
+
+                          <!-- text dlm card -->
+                          <div class="py-2 mx-6 justify-center align-center mt-10">
+                            <div class="flex align-center justify-center gap-5">
+                              <div>
+                                <img src="../assets/desktop/aboutus/trophy.svg">
+                              </div>
+                                <div class="h3-card">
+                                  <h5 class="h5-achieve ml-20">Delivered over 500 ships worldwide since 2020</h5>
+                                </div>
+                            </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+              </li>
+
+              <!-- card 2 -->
+              <li class="w-33">
+                  <div class="card-a">
+                      <div class="card1 yacht-container">
+                          <div class="yacht-img-container">
+                              <img src="../assets/desktop/aboutus/trophy.jpg" class="yacht-img">
+                          </div>
+
+                          <!-- text dlm card -->
+                          <div class="py-2 mx-6 justify-center align-center mt-10">
+                            <div class="flex align-center justify-center gap-5">
+                              <div>
+                                <img src="../assets/desktop/aboutus/trophy.svg">
+                              </div>
+                                <div class="h3-card">
+                                  <h5 class="h5-achieve ml-20">Awarded for Best Customer Service 2023</h5>
+                                </div>
+                            </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+              </li>
+
+              <!-- card 3 -->
+              <li class="w-33">
+                  <div class="card-a">
+                      <div class="card1 yacht-container">
+                          <div class="yacht-img-container">
+                              <img src="../assets/desktop/aboutus/world.jpg" class="yacht-img">
+                          </div>
+
+                          <!-- text dlm card -->
+                          <div class="py-2 mx-6 justify-center align-center mt-10">
+                            <div class="flex align-center justify-center gap-5">
+                              <div>
+                                <img src="../assets/desktop/aboutus/trophy.svg">
+                              </div>
+                                <div class="h3-card">
+                                  <h5 class="h5-achieve ml-20">Expanded into 10+ international markets</h5>
+                                </div>
+                            </div>
+                          </div>
+                          
+                      </div>
+                  </div>
+              </li>
+           </ul>
+          </div>
+          
+        </div>
+      </section>
+     </main>
+
+    <!-- footer -->
+   <footer class="footer flex w-full">
+      <header class="footer-content w-full">
+        <div class="footer-container">
+          <ul class="footer-section">
+            <!-- part one -->
+            <li class="w-25">
+              <div>
+                  <div class="my-2">
+                    <img src="../assets/desktop/home/logo.png" class="h-26 w-auto">
+                  </div>
+                  <div class="my-2">
+                    <ul class="list-none">
+                      <li>
+                        <p>Pantai Indah Kapuk 2</p>
+                      </li>
+                      <li>
+                        <p>Mon - Fri: 9AM - 10 PM</p>
+                      </li>
+                      <li>
+                        <p>shipdeckk@gmail.com</p>
+                      </li>
+                      <li>
+                        <p>+62 1234 5678 9012</p>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </li>
+
+            <!-- part two -->            
+            <li class="w-25">
+              <div>
+                <div>
+                  <h3 class="my-2">Support</h3>
+                </div>
+                <div class="my-2">
+                  <ul class="list-none">
+                    <li><p>Ticket Support</p></li>
+                    <li><p>Sales & Marketing</p></li>
+                    <li><p>Help Center</p></li>
+                    <li><p>Forum</p></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <!-- part three -->
+            <li class="w-25">
+              <div>
+                <div>
+                  <h3 class="my-2">Services</h3>
+                </div>
+                <div class="my-2">
+                  <ul class="list-none">
+                    <li><p>Ship Sales</p></li>
+                    <li><p>Ship Maintenance</p></li>
+                    <li><p>Ship Insurance</p></li>
+                    <li><p>Yacht Travel</p></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <!-- part four -->
+            <li class="w-25">
+              <div>
+                <div>
+                  <h3 class="my-2">Social Media</h3>
+                </div>
+                <div>
+                  <div class="flex gap-10">
+                    <img src="../assets/desktop/footer/fb.png" class="h-20 w-auto">
+                    <img src="../assets/desktop/footer/ig.png" class="h-20 w-auto">
+                    <img src="../assets/desktop/footer/tiktok.png" class="h-20 w-auto">
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <hr>
+          <div>
+            <p class="footer-bottom">© 2025 Shipdeckk. All rights reserved.</p>
+          </div>
+        </div>        
+      </header>
+   </footer>
 </body>
 </html>

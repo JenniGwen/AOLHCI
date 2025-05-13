@@ -22,8 +22,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -2 /* - < z < + (semakin negatif = layer blkg)*/
-         
+    z-index: -2 /* - < z < + (semakin negatif = layer blkg)*/    
 }
 
 .homeup-content{
@@ -513,4 +512,337 @@ object-fit{
 
 .yacht-title h2{
     color: #213b6A;
+}
+
+/* services */
+.services-bg{
+    background-image: url(../assets/desktop/services/servicesbg.png);
+    width: 100vw;
+    height: 170vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20vh 0;   
+}
+
+.services-section{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: white;
+}
+
+.services-wrapping{
+    margin: 0 auto;
+
+}
+
+.services-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1-services{
+    color: #213b6A;
+    font-size: 28px;
+    width: 35%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.c2-services{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gap-1{
+    gap: 1px;
+}
+
+.s-card{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 100%;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: #e1e1e1 0px 0px 10px 0px;
+}
+
+.s-icon{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.h2-service{
+    color: #213b6A;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.p-service{
+    color: #213b6A;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.s-card-margin{
+    margin: 0 8px 0 8px;
+    width: 100%;
+    padding: 20px;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.left-service{
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.right-service{
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.h2-service-bwh{
+    color: #213b6A;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.s-left-card{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 100%;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: #e1e1e1 0px 0px 10px 0px;
+}
+
+.s-left-card-margin{
+    margin: 0 8px 0 8px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.s-li-left{
+    color: #213b6A;
+    font-size: 14px;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.syacht-img{
+    height: 75%;
+    width: 75%;
+    margin: 5px 5px;
+    border-radius: 8px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.p-s-bwh{
+    color: #213b6A;
+    font-size: 14px;
+}
+
+.h2-service-bwh-r{
+    color: #213b6A;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.s-right-card{
+    width: 100%;
+    background-color: #213b6A;
+    padding: 5px;
+    border-radius: 16px;
+    width: 90%;
+}
+
+.s-right-card-margin{
+    margin: 0 8px 0 0px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.consult-img{
+    height: auto;
+    width: 85%;
+    margin: 0 0 10px 0;
+    border-radius: 8px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.consult-btn{
+    background: linear-gradient(45deg, #01A9F2, #00E2E0);
+    color: white;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 16px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+/* about us */
+.aboutus{
+    background-image: url(../assets/desktop/gallery/gallerybg.png);
+    position: relative;
+    width: 100vw;
+    height: 300vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20vh 0;
+}
+
+.aboutus-section{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.aboutus-wrapping{
+    margin: 0 auto;
+
+}
+
+.h1-aboutus{
+    color: #213b6A;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.0;
+}
+
+.p-aboutus{
+    color: #213b6A;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.text-margin{
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.aboutus-img{
+    height: 75%;
+    width: auto;
+
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+.mr-110{
+    margin-right: 110px;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.p-aboutus-visi{
+    color: #213b6A;
+    font-size: 14px;
+    margin: 30px;
+    text-align: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.margin-card{
+    margin: 20px 20px;
+}
+
+.h-50{
+    height: 50%;
+}
+
+.card-visi {
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 33.3%;
+    width: 100%;
+    box-shadow: #91f9ff 0px 0px 10px 0px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.h1-aboutus-a{
+    color: #213b6A;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.0;
+    text-align: center;
+    margin: 75px 0 0 0;
+}
+
+.h5-achieve{
+    color: #213b6A;
+    font-size: 16px;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.card-a{
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 33.3%;
+    width: 100%;
+    box-shadow: #91f9ff 0px 0px 10px 0px;
 }
