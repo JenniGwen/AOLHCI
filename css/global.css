@@ -6,6 +6,19 @@
 }
 
 /*navbar*/
+.navbar{
+    position: fixed;
+    width: 90%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    margin: 0 auto;
+    display: flex;
+    height: 55px;
+    max-width: 1000px;
+}
+
 .fixed{
     position: fixed;
 }
@@ -211,6 +224,8 @@ nav{
 .footer{
     background: #213A58;
     color: white;
+    width: 100%;
+    display: flex;
 }
 
 .footer-content{
@@ -226,9 +241,18 @@ nav{
     display: flex;
     width: 100%;
     list-style-type: none;
+    flex-wrap: nowrap;
 }
 
 .w-25{
+    width: 25%;
+}
+
+.w-img-footer{
+    width: 25%;
+}
+
+.w-list-footer{
     width: 25%;
 }
 
@@ -258,4 +282,79 @@ hr{
 
 .h-55{
     height: 8vh;
+}
+
+.h-img-sosmed{
+    height: 20px;
+    width: 100%;
+}
+
+/* HP */
+@media screen and (max-width: 756px){
+
+    /* footer */
+    .footer{
+        background: #213A58;
+        color: white;
+        width: 100%;
+        display: block;
+    }
+
+    .footer-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer-section{
+        display: flex;
+        width: 100%;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+
+    .w-img-footer{
+        width: 50%;
+    }
+
+    .w-list-footer{
+        width: 50%;
+    }
+
+    .footer-bottom{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+
+    .my-5{
+        margin-top: 5px;
+    }
+
+    .h-img-sosmed{
+        height: 30px;
+        width: 35px;
+    }
+
+    .w-img-footer h3{
+        font-size: 14px;
+    }
+
+    .w-list-footer h3{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .list-none li{
+        list-style-type: none;
+        font-size: 12px;
+        margin: 3px 0;
+    }
+
+    /* navbar */
+
+}
+
+/* Tablet */
+@media screen and (max-width: 1128px){
+    
 }

@@ -1074,6 +1074,7 @@ object-fit{
         width: 90%;
         margin: 0 auto;
     }
+
     .subs-header h1{
         text-align: center;
     }
@@ -1082,7 +1083,6 @@ object-fit{
     .h1-subs{
         display: none;
     }
-
 
     .h1-subs{
         color: #213b6A;
@@ -1093,13 +1093,11 @@ object-fit{
     }
 
     .subs-content{
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
-
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
 
     .subs-form-container{
         width: 100%;
@@ -1123,6 +1121,16 @@ object-fit{
         background: rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(10px);
         padding-bottom: 50px;
+    }
+
+    .join-shipdeck-container{
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin: 4vh 0 0 auto;
+        background-color:#213b6A;
+        border-radius: 8px;
+        padding: 20px 0;
     }
 
 }
