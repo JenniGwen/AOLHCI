@@ -19,6 +19,51 @@
     max-width: 1000px;
 }
 
+.nav-col-1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1vh 2vh;
+}
+
+.nav-col-1-con{
+    align-items: center;
+    width: 18%;
+    padding: 1vh 0 0 0 ;
+}
+
+.nav-col-1-img{
+    height: 26px;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.nav-col-2{
+    display: flex;
+    width: 80%;
+    padding: 0 30px;
+    gap: 10px;
+}
+
+.nav-col-2-con{
+    display: flex;
+    width: auto;
+    list-style: none;
+    gap: 40px;
+    margin: auto 0;
+    justify-content: center;
+
+}
+
+.list-li-a{
+    text-underline: none;
+    text-decoration: none;
+    font-size: 14px;
+    margin: auto 0;
+}
+
 .fixed{
     position: fixed;
 }
@@ -184,6 +229,19 @@ nav{
     justify-content: center;
     width: 100px;
     height: 25px;
+}
+
+.nav-col-3{
+    width: 10%;
+    align-items: center;
+    display: flex;
+}
+
+.nav-col-3-btn{
+    display: flex;
+    padding: 0 8px;
+    width: 120px;
+
 }
 
 .text-nav-color:hover{
