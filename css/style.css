@@ -190,7 +190,6 @@ object-fit{
 }
 
 
-
 .home-cards{
     width: 100%;
     margin: 0 auto;
@@ -852,7 +851,7 @@ object-fit{
     background-image: url(../assets/desktop/bgweb.png);
     position: relative;
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -930,7 +929,9 @@ object-fit{
 
 .input-box label{
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
+    color: rgb(80, 80, 80);
+    margin: 4px 0;
 }
 
 .input-box{
@@ -942,14 +943,29 @@ object-fit{
     background-color: white;
     color: rgb(179, 179, 179);
     padding: 8px;
+    width: 100%;
+    border : 1px solid rgb(179, 179, 179);
     border-radius: 4px;    
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
 }
 
-.error-vaidation{
-    font-size:16px;
-    margin: 2vh 0;
+.input-container textarea{
+    background-color: white;
+    color: rgb(104, 103, 103);
+    padding: 8px;
+    width: 100%;
+    border : 1px solid rgb(179, 179, 179);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.error-validation{
+    font-size:14px;
+    margin: 1vh 0;
+    color: red;
     font-weight: 500;
     text-align: left;
 }
@@ -957,13 +973,24 @@ object-fit{
 .input-radio{
     display: flex;
     gap: 10px;
+    margin: 2vh 0;
 }
+
+
+.input-radio label{
+    color: rgb(104, 103, 103);
+    font-size: 15px;
+    font-weight: 500;
+}
+
 
 .subs-btn{
     background: linear-gradient(45deg, #01A9F2, #00E2E0);
     color: white;
-    padding: 4px 16px;
+    padding: 10px 16px;
+    width: 100%;
     border: none;
+    margin: 6vh 0 3vh;
     border-radius: 16px;
     font-size: 14px;
     align-items: center;
@@ -971,14 +998,15 @@ object-fit{
 }
 
 .join-shipdeck-container{
-    width: 50%;
+    width: 45%;
     display: block;
-    margin: 0 auto;
+    margin: 0 0 0 auto;
+
 }
 
 .join-contain{
     width: 90%;
-    margin: 0 auto;
+    margin: 0 0 0 auto;
 }
 
 .join-header h1{
