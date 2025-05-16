@@ -48,7 +48,7 @@
                 <div class="subs-content">
                     <!-- form -->
                     <div class="subs-form-container">
-                        <form>
+                        <form id="form">
                             <div class="subs-form">
                                 <div class="subs-header">
                                     <h1>Subscribe Now</h1>
@@ -59,35 +59,35 @@
                                             <label for="fullname" class="input-label">Full Name</label>
                                             <div class="input-container">
                                                 <input type="text" placeholder="Full Name" id="fullname" name="fullname">
-                                                <div class="error-validation"><p id="error-fullname">error validation</p></div>
+                                                <div class="error-validation error-inactive"><p id="error-fullname">error validation</p></div>
                                             </div>
                                         </div>
                                         <div class="input-box">
                                             <label for="email" class="input-label">Email</label>
                                             <div class="input-container">
                                                 <input type="text" placeholder="Email" id="email" name="email">
-                                                <div class="error-validation"><p id="error-email">error validation</p></div>
+                                                <div class="error-validation error-inactive"><p id="error-email">error validation</p></div>
                                             </div>
                                         </div>
                                         <div class="input-box">
                                             <label for="age" class="input-label">Age</label>
                                             <div class="input-container">
                                                 <input type="number" placeholder="Age" id="age" name="age">
-                                                <div class="error-validation"><p id="error-age">error validation</p></div>
+                                                <div class="error-validation error-inactive"><p id="error-age">error validation</p></div>
                                             </div>
                                         </div>
                                         <div class="input-box">
-                                            <label for="your-question" class="input-label">Your Question</label>
+                                            <label for="question" class="input-label">Your Question</label>
                                             <div class="input-container">
-                                                <textarea placeholder="your question" id="your-question" name="your-question"></textarea>
-                                                <div class="error-validation"><p id="error-question">error validation</p></div>
+                                                <textarea placeholder="your question" id="question" name="question"></textarea>
+                                                <div class="error-validation error-inactive"><p id="error-question">error validation</p></div>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="subs-form-box">
                                         <div class="input-radio">
-                                            <input type="radio">
+                                            <input type="checkbox" id="accept">
                                             <label>I agree to ShipDecKK's Terms and Conditions</label>
                                         </div>
                                     </div>

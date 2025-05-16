@@ -1047,6 +1047,17 @@ object-fit{
     color: #FFFFFF;
 }
 
+.error-active{
+    display: block;
+}
+
+.error-inactive{
+    display: none;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
 
 /* HP */
 @media screen and (max-width: 756px){
