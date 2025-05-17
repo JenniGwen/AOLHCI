@@ -1048,7 +1048,7 @@ object-fit{
 }
 
 .error-active{
-    display: block;
+    display: block !important;
 }
 
 .error-inactive{
