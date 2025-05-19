@@ -394,6 +394,10 @@
     align-items: stretch; 
 }
 
+.yacht{
+    width: 100%;
+}
+
 .g-yacht-ul{
     list-style-type: none;
     display: flex;
@@ -409,7 +413,7 @@
 }
 
 .card-g{
-    width: 33%;
+    width: 32%;
 }
 
 .w-33{
@@ -1949,7 +1953,7 @@
     }
 
     .card-g{
-        width: 31%;
+        width: 30%;
     }
 
     .title-card{
@@ -2055,5 +2059,36 @@
         max-width: 1300px;
     }
 
+    .yacht-shadow-container{
+        background-color: white;
+        border-radius: 20px;
+        padding: 0px 10px;
+        border: 1px solid #f2f2f2;
+        height: 30px;
+    }
+
+    .gallery-section{
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 12px;
+        background: white;
+    }
+
+    .absolute-yacht{
+        position: absolute;
+        bottom: 8px;
+        right: 4px;
+        left: 4px;
+        justify-items: center;
+    }
+
+    .p-card{
+        color: #9da2ac;
+        font-size: 10px;
+        font-weight: 600;
+        margin: auto;
+        padding: 3px 0 0 0;
+    }
     
 }
