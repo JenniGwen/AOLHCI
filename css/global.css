@@ -9,7 +9,7 @@
 .navbar{
     position: fixed;
     width: 90%;
-    top: 0;
+    top: 30;
     left: 0;
     right: 0;
     z-index: 50;
@@ -30,20 +30,20 @@
 
 .nav-col-1-con{
     align-items: center;
-    width: 20px;
-    padding: 1vh 0 0 0 ;
+    width: 100px;
+    padding: 0;
 }
 
 .nav-col-1-img{
     position: fixed;
-    height: 26px;
-    padding: 0 30px;
+    height: 25px;
+    padding: 0 20px 0 15px;
 }
 
 .nav-col-2{
     display: flex;
     width: 80%;
-    padding: 0 30px;
+    padding: 0 15px 0 20px;
     gap: 10px;
     margin: 0 auto;
 }
@@ -52,7 +52,7 @@
     display: flex;
     width: auto;
     list-style: none;
-    gap: 40px;
+    gap: 30px;
     margin: auto;
     justify-content: center;
 
@@ -60,7 +60,7 @@
 
 .list-li-a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
     margin: auto 0;
 }
 
@@ -278,9 +278,13 @@ nav{
     padding: 4px 16px;
     border: none;
     border-radius: 16px;
-    font-size: 14px;
+    font-size: 13px;
     align-items: center;
     justify-content: center;
+}
+
+.btn-wrapper{
+    margin-right: 50px;
 }
 
 .footer{
@@ -346,10 +350,6 @@ hr{
     height: 8vh;
 }
 
-.h-img-sosmed{
-    height: 20px;
-    width: 100%;
-}
 
 /* HP */
 @media screen and (max-width: 756px){
@@ -438,16 +438,16 @@ hr{
     .nav-col-1-con{
         align-items: center;
         width: 50%;
-        padding: 0.75vh 0 0 0 ;
+        padding: 0;
     }
 
     .nav-col-1-img{
-        height: 26px;
-        padding: 0 15px;
+        height: 24px;
+        padding: 0 10px 0 15px;
     }
 
     .nav-col-3{
-        margin: 5px 15px 0 0;
+        margin: 0 10px 0 0;
         align-items: right;
         display: flex;
     }
@@ -465,6 +465,10 @@ hr{
     .menu-btn{
         border: none;
         background-color: white;
+    }
+
+    .h-img-sosmed{
+        width: auto;
     }
 }
 

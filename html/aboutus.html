@@ -13,22 +13,27 @@
 </head>
 <body class="aboutus-body">
     <!-- navbar -->
-    <nav class="fixed w-9-10 top-0 left-0 right-0 z-50 mx-auto flex h-55 mx-width-1000">
-      <div class="w-full mx-auto flex aligncenter justify-between py-4 px-8">
-        <div class="aligncenter w-1-10 pt-5">
-          <img class="h-26 w-auto px-30" src="../assets/desktop/home/logo2.png">
+    <nav class="navbar">
+      <div class="nav-col-1 ">
+        <div class="nav-col-1-con">
+          <img class="nav-col-1-img" src="../assets/desktop/home/logo2.png">
       </div>
-      <div class="flex w-8-10 px-30 gap-10 flex-sm-w">
-        <ul class="flex w-auto no-list gap-40 justify-center flex-sm-w">
-          <li><a href="home.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">Home</a></li>
-          <li><a href="../html/gallery.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">Gallery</a></li>
-          <li><a href="../html/services.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">Services</a></li>
-          <li><a href="../html/aboutus.html" class=" active no-underline font-14 text-nav-color cursor-pointer my-auto">About Us</a></li>
-          <li><a href="../html/subscription.html" class="no-underline font-14 text-nav-color cursor-pointer my-auto">Subscription</a></li>
+      <div class="nav-col-2 flex-sm-w">
+        <ul class="nav-col-2-con">
+          <li><a href="home.html" class="list-li-a text-nav-color cursor-pointer">Home</a></li>
+          <li><a href="../html/gallery.html" class="list-li-a text-nav-color cursor-pointer">Gallery</a></li>
+          <li><a href="../html/services.html" class="list-li-a text-nav-color cursor-pointer">Services</a></li>
+          <li><a href="../html/aboutus.html" class="active list-li-a text-nav-color cursor-pointer ">About Us</a></li>
+          <li><a href="../html/subscription.html" class="list-li-a text-nav-color cursor-pointer">Subscription</a></li>
       </ul>
       </div>
-      <div class="w-1-10 aligncenter flex">
-        <button class="flex w-120 px-8 login-btn font-14 h-25 my-auto">Login</button>
+      <div class="nav-col-3">
+        <div class="display-flex-sm">
+            <div>
+                <button class="menu-btn"><img src="../assets/desktop/menu.svg" class="menu-img"></button>
+            </div>
+        </div>
+        <button class="nav-col-3-btn login-btn font-14 h-25 my-auto">Login</button>
       </div>
       </div>
     </nav>
@@ -37,14 +42,14 @@
      <main class="aboutus">
       <!-- who we are -->
       <section class="aboutus-section">
-        <div class="aboutus-wrapping flex-row justify-center mx-auto my-auto gap-40">
+        <div class="aboutus-wrapping">
           <!-- image -->
-           <div class="flex justify-center mx-auto w-50">
+           <div class="ship-img-kiri">
               <img src="../assets/desktop/aboutus/aboutus.jpg" class="aboutus-img">
            </div>
 
           <!-- text -->
-          <div class="justify-center text-margin mt-10 ml-10 w-50">
+          <div class="abt-text-wrap">
             <div>
               <h1 class="h1-aboutus">Who We Are</h1>
             </div>
@@ -57,10 +62,10 @@
       </section>
 
       <!-- misi visi -->
-      <section class="aboutus-section">
-      <div class="aboutus-wrapping flex-row justify-center mx-auto my-auto gap-40">
+      <section class="aboutus-section2">
+      <div class="aboutus-wrapping">
           <!-- text -->
-          <div class="justify-center text-margin mt-10 ml-10 w-50">
+          <div class ="misi-txt">
             <div>
               <h1 class="h1-aboutus ">Our Mission and Values</h1>
             </div>
@@ -70,34 +75,38 @@
           </div>
 
           <!-- visi misi -->
-           <div class="flex-column justify-center w-50 h-full ">
+          <div class="cardabt">
+              <div class="card-misi">
             <!-- misi 1 & 2 -->
-              <div class= "h-50 flex gap-15 margin-card">
-                <div class="card-visi w-50 mx-auto my-auto justify-center">
+              <div class= "misi1-2">
+                <div class="card-visi">
                   <p class="p-aboutus-visi">Using only the finest materials and the best craftsmanship</p>
                 </div>
-                <div class="card-visi w-50 mx-auto my-auto justify-center">
+                <div class="card-visi">
                   <p class="p-aboutus-visi">Providing an engaging customer experience</p>
                 </div>
               </div>
+            </div>
 
+            <div class="card-misi">
               <!-- misi 3 & 4 -->
-              <div class= "h-50 flex gap-15 margin-card">
-                <div class="card-visi w-50 mx-auto my-auto justify-center">
-                  <p class="p-aboutus-visi">Building strong, lasting relationships with our clients</p>
+              <div class= "misi1-2">
+                <div class="card-visi">
+                  <p class="p-aboutus-visi">Building strong, lasting relationships with clients</p>
                 </div>
-                <div class="card-visi w-50 mx-auto my-auto justify-center">
+                <div class="card-visi">
                   <p class="p-aboutus-visi">Promoting sustainability in every vessel offered</p>
                 </div>
               </div>
            </div>
-
+          </div>
+           
         </div>
       </section>
 
       <!-- achievements -->
       <section class="aboutus-section">
-        <div class="aboutus-wrapping flex-column justify-center mx-auto my-auto gap-40">
+        <div class="aboutus-wrapping">
           <!-- text -->
           <div class="justify-center mb-50">
             <div>
