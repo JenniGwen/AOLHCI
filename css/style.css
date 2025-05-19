@@ -1536,6 +1536,8 @@
         flex-wrap: wrap;
         gap: 20px;
     }
+
+
 }
 
 /* Tablet */
@@ -1686,8 +1688,9 @@
     }
 
     .explore-search{
-        width: 100%;
+        /*width: 100%;*/
         display: flex;
+        margin-left: auto;
         text-align: right;
     }
 
@@ -1705,7 +1708,7 @@
         background-color: white;
         padding: 10px;
         border-radius: 16px;
-        width: 30%;
+        width: 32%;
         transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* default no shadow */
         transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -1724,5 +1727,12 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+    }
+
+
+    .homedown-content{
+        padding: 30px;
+        text-align: center;
+        margin: 0 auto;
     }
 }
