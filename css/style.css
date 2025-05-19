@@ -1,4 +1,10 @@
 /* Home page */
+.home-body{
+    min-width: 400px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .home-content{
     position: relative;
 }
@@ -60,6 +66,23 @@
     padding: 20px; /*top, right, bottom, left*/
 }
 
+.banner-title{
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.explore-search{
+    width: 30%;
+    display: flex;
+    text-align: left;
+}
+
+.container-title{
+    width: 70%;
+}
+
 .w-98{
     width: 98%;
 }
@@ -88,18 +111,8 @@
     height: 25px;
 }
 
-.homeup-text h2{
-    font-size: 40px;
-    line-height: 1.2;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
 .home-p{
     margin-top: 30px;
-}
-
-.home-text p{
     font-size: 12px;
     /* margin-bottom: 30px; */
     color: #213b6A;
@@ -138,9 +151,18 @@
     text-align: left;
 }
 
-.explore h3 {
+.explore{
+    display: flex;
+    align-items: left;
+    height: 30%;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.explore-h3 {
     font-size: 36px;
     padding-top: 4px;
+    align-items: left;
 }
 
 .cursor-pointer{
@@ -176,6 +198,7 @@
     box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* default no shadow */
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: #91f9ff 0px 0px 10px 0px;
+    gap: 20px;
 }
 
 
@@ -195,6 +218,7 @@
     margin: 0 auto;
     position: relative;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .object-contains{
@@ -1386,9 +1410,131 @@
         justify-content: center;
     }
 
-
     .w-33-yacht{
         width: 100%;
+    }
+
+    .banner-title{
+       font-size: 24px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .home-p{
+        margin-top: 10px;
+    }
+
+    .home-p{
+        margin-top: 10px;
+        font-size: 12px;
+        /* margin-bottom: 30px; */
+        color: #213b6A;
+    }
+
+    .homecard{
+        position: absolute;
+        /* supaya di tengah all taruh 0 */
+        top: 10px;
+        bottom: 0;
+        right: 0; 
+        left: 0;
+        margin: 0 auto; 
+        width: 90%;
+        background-color: rgba(255, 255, 255, 1); /*white with opacity*/
+        border-radius: 30px;
+        padding: 20px; /*top, right, bottom, left*/
+    }
+
+    .homeup{
+        background-image: 
+            linear-gradient(rgba(255, 255, 255, 0.044), rgba(0, 0, 0, 0.565)), /*top, bottom (gradient overlay)*/
+            url(../assets/desktop/home/homebg.png);
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -2 /* - < z < + (semakin negatif = layer blkg)*/    
+    }
+
+    .homedown-content{
+        padding: 20px 0;
+        text-align: center;
+        margin: 0 auto; 
+        max-width: 1440px; 
+        width: 90%;
+    }
+
+    .explore{
+        display: block;
+        align-items: left;
+        margin: 10px 0 30px 20px;
+    }
+
+    .explore-h3{
+        font-size: 24px;
+        padding-top: 4px;
+    }
+
+    .wrapping-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .explore-search{
+        width: 100%;
+        display: flex;
+        text-align: left;
+    }
+    
+    .search-input{
+        width: 100%;
+        height: 40px;
+        padding: 0 20px;
+        border-radius: 12px;
+        border: none;
+        background-color: #F2F2F2;
+        font-size: 14px;
+    }
+
+    .card-bg {
+        background-color: white;
+        padding: 10px;
+        border-radius: 16px;
+        width: 80%;
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* default no shadow */
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: #91f9ff 0px 0px 10px 0px;
+        margin: 0 auto;
+        
+    }
+
+    .container-title{
+        width: 100%;
+    }
+
+    .homedown{
+        background-image: url(../assets/desktop/bgweb.png);
+        position: relative;
+        width: 100vw;
+        height: 235vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .home-cards{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
 
@@ -1516,5 +1662,67 @@
 
     .w-33-yacht{
         width: 32%;
+    }
+
+    .banner-title{
+        font-size: 38px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .home-p{
+        margin-top: 10px;
+        font-size: 14px;
+        /* margin-bottom: 30px; */
+        color: #213b6A;
+    }
+
+    .wrapping-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .explore-search{
+        width: 100%;
+        display: flex;
+        text-align: right;
+    }
+
+    .search-input{
+        width: 100%;
+        height: 40px;
+        padding: 0 20px;
+        border-radius: 12px;
+        border: none;
+        background-color: #F2F2F2;
+        font-size: 14px;
+    }
+
+    .card-bg {
+        background-color: white;
+        padding: 10px;
+        border-radius: 16px;
+        width: 30%;
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* default no shadow */
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: #91f9ff 0px 0px 10px 0px;
+        gap: 20px;
+    }
+
+    .container-title{
+        width: 100%;
+    }
+
+    .home-cards{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 }
