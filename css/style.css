@@ -121,6 +121,7 @@
 .center-button{
     display: flex;
     justify-content: center;
+    padding: 0 0 5px 0;
 }
 
 .grad1-btn{
@@ -308,7 +309,6 @@
     background-image: url(../assets/desktop/gallery/gallerybg.png);
     position: relative;
     width: 100vw;
-    height: 315vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -390,6 +390,24 @@
     flex-wrap: wrap;
     /*overflow-x: scroll;*/
     margin: 20px 0;
+}
+
+.g-yacht-ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    /*overflow-x: scroll;*/
+    margin: 20px 0;
+}
+
+.title-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-g{
+    width: 33%;
 }
 
 .w-33{
@@ -543,11 +561,16 @@
     color: #213b6A;
 }
 
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 /* services */
 .services-bg{
     background-image: url(../assets/desktop/services/servicesbg.png);
     width: 100vw;
-    height: 170vh;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -566,6 +589,11 @@
 .services-wrapping{
     margin: 0 auto;
 
+}
+
+.cards-service{
+    gap: 1px;
+    display: flex;
 }
 
 .services-header{
@@ -629,6 +657,13 @@
     margin: 0 8px 0 8px;
     width: 100%;
     padding: 20px;
+}
+
+.yacht-margin{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .mb-5{
@@ -850,7 +885,7 @@
     list-style-type: none;
     display: flex;
     gap: 5px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     margin: 20px 0;
 }
 
@@ -1302,7 +1337,6 @@
 
     .aboutus-section-3{
         padding: 20px;
-        width: 100%;
         margin: 0 auto;
         max-width: 1300px;
     }
@@ -1373,7 +1407,6 @@
     .aboutus-section2{
         display: block;
         padding: 20px;
-        width: 100%;
         margin: 0 auto;
         max-width: 1300px;
     }
@@ -1400,9 +1433,9 @@
 
     .card-visi {
         background-color: white;
-        height: 140px;
+        height: 100%;
         padding: 10px;
-        overflow-y: scroll;
+        overflow-y: hidden;
         border-radius: 16px;
         width: 100%;
 
@@ -1537,7 +1570,156 @@
         gap: 20px;
     }
 
+    .g-yacht-ul{
+        list-style-type: none;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        /*overflow-x: scroll;*/
+        margin: 20px 0;
+    }
 
+    .card-g{
+        width: 100%;
+    }
+
+    .title-card{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .gallery-header{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .c2-gallery{
+        display: block;
+        justify-content: space-between;
+        width: 70%;
+        margin: auto 0;
+        padding: 20px 0;
+    }
+
+    .wrapping-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .c1-gallery{
+        color: #213b6A;
+        font-size: 20px;
+        width: 30%;
+    }
+
+    .wrapping-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .c2-gallery{
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .card-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .services-wrapping{
+        margin: 0 auto;
+        display: block;
+
+    }
+    
+    .cards-service{
+        gap: 1px;
+        display: block;
+        
+    }
+
+    .s-card{
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        border-radius: 16px;
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: #e1e1e1 0px 0px 10px 0px;
+        margin: 30px auto; 
+
+    }
+
+    .left-service{
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .right-service{
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .s-left-card-margin{
+        margin: 0 8px 0 8px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+       
+    }
+
+    .syacht-img{
+        height: 100%;
+        width: 100%;
+        margin: 5px 5px;
+        border-radius: 8px;
+    }
+
+    .yacht-margin{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: right;
+    }
+
+    .yacht-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+    }
+
+    .yacht-ul{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        /*overflow-x: scroll;*/
+        margin: 20px 0;
+    }
+
+    .h1-aboutus-a{
+        color: #213b6A;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.0;
+        text-align: center;
+        margin: 75px 0 0 0;
+    }
 }
 
 /* Tablet */
@@ -1573,7 +1755,7 @@
 
     .aboutus-section{
         padding: 20px;
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         max-width: 1300px;
     }
@@ -1604,7 +1786,7 @@
 
     .aboutus-section2{
         padding: 20px;
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -1632,8 +1814,6 @@
         width: 48%;
     }
 
-
-
     .card-visi {
         background-color: white;
         height: 180px;
@@ -1658,7 +1838,7 @@
         list-style-type: none;
         display: flex;
         gap: 10px;
-        overflow-x: scroll;
+        overflow-x: hidden;
         margin: 20px 0;
     }
 
@@ -1734,5 +1914,143 @@
         padding: 30px;
         text-align: center;
         margin: 0 auto;
+    }
+
+    .c1-gallery{
+        color: #213b6A;
+        font-size: 28px;
+        width: 30%;
+    }
+
+    .c2-gallery{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: auto 0;
+    }
+
+    .g-yacht-ul{
+        list-style-type: none;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        /*overflow-x: scroll;*/
+        margin: 20px 0;
+    }
+
+    .card-g{
+        width: 31%;
+    }
+
+    .title-card{
+        display: block;
+        justify-content: space-between;
+    }
+
+    .card-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .gallery{
+        background-image: url(../assets/desktop/gallery/gallerybg.png);
+        position: relative;
+        width: 100vw;
+        height: 365vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 20vh 0;
+    }
+
+    .cards-service{
+        gap: 1px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .s-card{
+        width: 47%;
+        background-color: white;
+        padding: 10px;
+        border-radius: 16px;
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: #e1e1e1 0px 0px 10px 0px;
+        margin: 10px auto; 
+
+    }
+
+    .left-service{
+        width: 60%;
+        padding: 10px 20px;
+    }
+
+    .right-service{
+        width: 40%;
+        padding: 0px 3px;
+    }
+
+
+    .yacht-margin{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: right;
+    }
+
+    .syacht-img{
+        height: 100%;
+        width: 100%;
+        margin: 5px 5px;
+        border-radius: 8px;
+    }
+
+    .s-left-card-margin{
+        margin: 0 8px 0 8px;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        gap: 25px;
+       
+    }
+
+    .s-li-left{
+        color: #213b6A;
+        font-size: 12px;
+    }
+
+    .yacht-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+    }
+
+    .p-aboutus-visi{
+        color: #213b6A;
+        font-size: 14px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .aboutus-section-3{
+        padding: 20px;
+        width: 80%;
+        gap: 15px;
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+
+    .yacht-ul{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        /*overflow-x: scroll;*/
+        margin: 20px 0;
     }
 }
