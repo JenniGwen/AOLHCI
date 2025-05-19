@@ -729,13 +729,15 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 20vh 0;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .aboutus-section{
     padding: 20px;
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    max-width: 1300px;
 }
 
 .aboutus-section2{
@@ -1279,14 +1281,14 @@
         padding: 20px;
         width: 80%;
         margin: 0 auto;
-        margin-bottom: 20px;
+        max-width: 1300px;
     }
 
     
 }
 
 /* Tablet */
-@media screen and (max-width: 1128px){
+@media screen and (min-width: 756px) and (max-width: 1128px) {
     .join-contain{
         width: 90%;
         margin: 15px 25px;
@@ -1316,5 +1318,52 @@
         color: #FFFFFF;
     }
 
+    .aboutus-section{
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+
+    .aboutus-wrapping{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        width: 80%;
+
+    }
+
+    .abt-text-wrap{
+        margin: 4vh 0 0 0;
+        width: 50%;
+    }
+
+    .ship-img-kiri{
+        display: flex;
+        justify-content: center;
+        margin: 4vh 2vh;
+        height: auto;
+        width: 50%;
+    }
+
+    .aboutus-section2{
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .misi-txt{
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .cardabt{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
     
 }
