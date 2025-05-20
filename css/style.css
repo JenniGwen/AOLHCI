@@ -12,7 +12,6 @@
 .homedown{
     background-image: url(../assets/desktop/bgweb.png);
     position: relative;
-    width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +21,6 @@
     background-image: 
         linear-gradient(rgba(255, 255, 255, 0.044), rgba(0, 0, 0, 0.565)), /*top, bottom (gradient overlay)*/
         url(../assets/desktop/home/homebg.png);
-    width: 100vw;
     height: 100vh;
     position: relative;
     background-size: cover;
@@ -76,7 +74,7 @@
 .explore-search{
     width: 30%;
     display: flex;
-    text-align: left;
+    justify-content: right;
 }
 
 .container-title{
@@ -1235,7 +1233,7 @@
 }
 
 /* HP */
-@media screen and (max-width: 756px){
+@media screen and (max-width: 768px){
 
     /* subscription */
     .subs-bg{
@@ -1764,7 +1762,7 @@
 }
 
 /* Tablet */
-@media screen and (min-width: 756px) and (max-width: 1128px) {
+@media screen and (min-width: 768px) and (max-width: 1128px) {
     .join-contain{
         width: 90%;
         margin: 15px 25px;
