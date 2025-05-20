@@ -1,3 +1,4 @@
+// for responsive sidebar
 const menuBtn = document.querySelector('.menu-btn');
   const sidebar = document.getElementById('sidebar');
 

@@ -79,6 +79,7 @@ form.addEventListener("submit", function(e){
     }
 
     //form is submitted successfully
+    alert("Form submitted successfully!");
     console.log("Form submitted successfully!");
     form.reset();
 

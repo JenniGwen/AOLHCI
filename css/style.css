@@ -529,6 +529,14 @@
     font-size: 16px;
 }
 
+.about-ul{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
 .p-ship{
     color: #213b6A;
     font-size: 12px;
@@ -700,7 +708,7 @@
 .s-left-card{
     width: 100%;
     background-color: white;
-    padding: 10px;
+    padding: 30px 10px;
     border-radius: 16px;
     width: 100%;
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -840,17 +848,19 @@
 .aboutus-wrapping{
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-items: center;
     gap: 40px;
 
 }
 
 
 .aboutus-wrapping-3{
-    margin: 0 auto;
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
     gap: 40px;
+    flex-wrap: wrap;         
+    margin: 0 auto;
 
 }
 
@@ -901,7 +911,8 @@
     gap: 5px;
     overflow-x: hidden;
     margin: 20px 0;
-    align-items: stretch; 
+    align-items: center; 
+    justify-content: center;
 }
 
 .misi-txt{
@@ -1699,6 +1710,16 @@
        
     }
 
+    .s-left-card{
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        border-radius: 16px;
+        width: 100%;
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: #e1e1e1 0px 0px 10px 0px;
+    }
+
     .syacht-img{
         height: 100%;
         width: 100%;
@@ -2030,6 +2051,16 @@
         display: flex;
         gap: 25px;
        
+    }
+
+    .s-left-card{
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        border-radius: 16px;
+        width: 100%;
+        transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: #e1e1e1 0px 0px 10px 0px;
     }
 
     .s-li-left{
